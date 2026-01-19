@@ -1,4 +1,4 @@
-![Shit's not here yo!](monarchytitleblack)
+![monarchytitle](monarchytitleblack.png)
 
 # Monarchy || Jokers & Consumables
 
