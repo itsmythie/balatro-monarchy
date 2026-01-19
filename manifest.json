@@ -1,0 +1,16 @@
+{
+    "id": "monarchy",
+    "name": "Monarchy",
+    "author": ["itsmythie","Eremel_"],
+    "description": "",
+    "prefix": "monarchy",
+    "main_file": "main.lua",
+    "badge_colour": " ", 
+    "badge_text_colour": "FFFFFF",
+    "display_name": "Monarchy",
+    "dependencies": [
+        "Steamodded (>=1.0.0~ALPHA-1225a)"
+    ],
+    "version": "1.0.0",
+    "priority": -2
+}
