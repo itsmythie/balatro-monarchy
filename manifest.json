@@ -5,7 +5,7 @@
     "description": "",
     "prefix": "monarchy",
     "main_file": "main.lua",
-    "badge_colour": " ", 
+    "badge_colour": "00439C", 
     "badge_text_colour": "FFFFFF",
     "display_name": "Monarchy",
     "dependencies": [
