@@ -10,16 +10,16 @@ local loc_table = {
             monarchy_air_freshener_flavour_66 = 'Jimbo',
             monarchy_air_freshener_flavour_76 = 'Steven',
             monarchy_air_freshener_flavour_86 = 'Todd',
-            monarchy_air_freshener_flavour_96 = 'Blueprint',
+            monarchy_air_freshener_flavour_96 = 'Blueberries',
             monarchy_air_freshener_flavour_57 = 'Popcorn',
             monarchy_air_freshener_flavour_67 = 'Bananas',
             monarchy_air_freshener_flavour_77 = 'Ice Cream',
             monarchy_air_freshener_flavour_87 = 'Ramen',
             monarchy_air_freshener_flavour_97 = 'Eels',
-            monarchy_air_freshener_flavour_58 = 'Flowers',
-            monarchy_air_freshener_flavour_68 = 'Flowers',
-            monarchy_air_freshener_flavour_78 = 'Flowers',
-            monarchy_air_freshener_flavour_88 = 'Flowers',
+            monarchy_air_freshener_flavour_58 = 'The 80s',
+            monarchy_air_freshener_flavour_68 = 'Coffee',
+            monarchy_air_freshener_flavour_78 = 'Burning',
+            monarchy_air_freshener_flavour_88 = 'Sweat',
             monarchy_air_freshener_flavour_98 = 'Eggs',
         }
     },
@@ -56,15 +56,17 @@ local descriptions = {
         bees_threes = {
             name = 'Bee\'s Threes',
             text = {
-                'Each played {C:attention}#1#{} gives {C:chips}+#2#{} Chips',
-                'and has a {C:green}#3# in #4#{} chance to give {C:money}#5#'
+                'Each played {C:attention}#1#{} gives',
+                '{C:chips}+#2#{} Chips and has a ',
+                '{C:green}#3# in #4#{} chance to give {C:money}#5#'
             }
         },
         bicycle = {
             name = 'Bicycle',
             text = {
-                '{C:mult}+#1#{} Mult if played {C:attention}#2#',
-                'contains an {C:attention}#3#{} and a {C:attention}#4#',
+                '{C:mult}+#1#{} Mult if played',
+                '{C:attention}#2#{} contains an',
+                '{C:attention}#3#{} and a {C:attention}#4#',
             }
         },
         burn = {
@@ -79,8 +81,9 @@ local descriptions = {
         can_of_snakes = {
             name = 'Can of Snakes',
             text = {
-                '{C:blue}+#1#{} Chips, {C:red}+#2#{} Mult, or earn {C:money}#3#{}',
-                'on {C:attention}first hand{} of round'
+                '{C:blue}+#1#{} Chips, {C:red}+#2#{} Mult',
+                'or earn {C:money}#3#{} on',
+                '{C:attention}first hand{} of round'
             }
         },
         daifugo = {
@@ -121,13 +124,10 @@ local descriptions = {
         kettlebell = {
             name = 'Kettlebell',
             text = {
-                {
-                    '{C:mult}+#1#{} Mult'
-                },{
                     'This Joker gains {C:mult}+#2#{} Mult',
                     'if you exit a shop',
-                    '{C:attention}without buying{} any cards'
-                }
+                    '{C:attention}without buying{} any cards',
+                    '{C:inactive}(Currently {C:mult}+#1#{C:inactive})'
             }
         },
         key_card = {
