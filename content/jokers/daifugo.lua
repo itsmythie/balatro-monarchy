@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "daifugo",
-    pos = {x = 6, y = 0},
+    pos = {x = 8, y = 0},
     rarity = 1,
     cost = 4,
     unlocked = true,

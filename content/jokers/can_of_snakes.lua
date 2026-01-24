@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "can_of_snakes",
-    pos = {x = 5, y = 9},
+    pos = {x = 4, y = 0},
     rarity = 1,
     cost = 4,
     unlocked = true,

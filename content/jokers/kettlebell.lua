@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "kettlebell",
-    pos = {x = 8, y = 9},
+    pos = {x = 0, y = 1},
     rarity = 1,
     cost = 4,
     unlocked = true,

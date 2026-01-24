@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "asteroid_belt",
-    pos = {x = 2, y = 6},
+    pos = {x = 5, y = 0},
     rarity = 1,
     cost = 4,
     unlocked = true,

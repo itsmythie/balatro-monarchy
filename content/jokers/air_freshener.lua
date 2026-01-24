@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "air_freshener",
-    pos = {x = 5, y = 6},
+    pos = {x = 5, y = 4},
     rarity = 1,
     cost = 4,
     unlocked = true,
@@ -13,7 +13,7 @@ Monarchy.Joker({
         G.E_MANAGER:add_event(Event({
             func = function() 
                 card.ability.extra.x_pos = card.ability.extra.x_pos or math.random(5, 9)
-                card.ability.extra.y_pos = card.ability.extra.y_pos or math.random(6, 8)
+                card.ability.extra.y_pos = card.ability.extra.y_pos or math.random(4, 6)
                 card.children.center:set_sprite_pos({x=card.ability.extra.x_pos, y=card.ability.extra.y_pos})
                 return true
             end

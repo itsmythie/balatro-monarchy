@@ -1,6 +1,6 @@
 Monarchy.Joker = SMODS.Joker:extend({
     atlas = 'monarchy_joker',
-    pos = {x = 2, y = 7},
+    pos = {x = 0, y = 0},
     process_loc_text = function(self)
         SMODS.process_loc_text(G.localization.descriptions.Joker, self.key,
             G.localization.descriptions.Joker[self.key] or self.loc_txt or {
@@ -16,7 +16,7 @@ Monarchy.Joker = SMODS.Joker:extend({
 
 SMODS.Atlas({
     key = 'joker',
-    path = 'monarchpack.png',
+    path = 'monarchy-jokers.png',
     px = 71, py = 95
 })
 

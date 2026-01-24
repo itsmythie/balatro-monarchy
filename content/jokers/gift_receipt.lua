@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "gift_receipt",
-    pos = {x = 2, y = 0},
+    pos = {x = 6, y = 0},
     rarity = 1,
     cost = 4,
     unlocked = true,

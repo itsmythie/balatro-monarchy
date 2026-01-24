@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "metronome",
-    pos = {x = 1, y = 12},
+    pos = {x = 3, y = 1},
     rarity = 1,
     cost = 4,
     unlocked = true,

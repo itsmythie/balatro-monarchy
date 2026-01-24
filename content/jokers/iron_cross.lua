@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "iron_cross",
-    pos = {x = 2, y = 7},
+    pos = {x = 9, y = 0},
     rarity = 1,
     cost = 4,
     unlocked = true,

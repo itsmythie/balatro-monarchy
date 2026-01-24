@@ -1,6 +1,6 @@
 Monarchy.Joker({
     key = "gummy_bears",
-    pos = {x = 6, y = 10},
+    pos = {x = 2, y = 1},
     rarity = 1,
     cost = 4,
     unlocked = true,

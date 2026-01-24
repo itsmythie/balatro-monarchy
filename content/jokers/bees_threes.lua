@@ -1,8 +1,8 @@
 Monarchy.Joker({
     key = "bees_threes",
-    pos = {x = 3, y = 3},
+    pos = {x = 3, y = 0},
     rarity = 1,
-    cost = 4,
+    cost = 3,
     unlocked = true,
     discovered = false,
     blueprint_compat = true,
