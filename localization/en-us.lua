@@ -257,6 +257,15 @@ local descriptions = {
                 '{C:inactive,s:0.8}(Rank changes each round)'
             }
         },
+        subway_map = {
+            name = 'Subway Map',
+            text = {
+                'Gains {C:chips}+#1#{} Chips for every',
+                '{C:attention}additional suit{} in scored hand,',
+                'resets if only {C:attention}1 suit{} scored',
+                '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)'
+            }
+        },
         supermassive = {
             name = 'Supermassive',
             text = {
