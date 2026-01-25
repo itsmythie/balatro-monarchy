@@ -135,6 +135,14 @@ local descriptions = {
                 'a {C:attention}random Enhancement'
             }
         },
+        gutshot = {
+            name = 'Gutshot',
+            text = {
+                'If hand contains a {C:attention}#2#',
+                'retrigger the {C:attention}middle ranked',
+                'card {C:attention}#1#{} additional times'
+            }
+        },
         hailstorm = {
             name = 'Hailstorm',
             text = {

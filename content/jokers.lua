@@ -51,6 +51,7 @@ local joker_list = {
     'negative_film',
     'shattered',
     'subway_map',
+    'gutshot',
 
     'supermassive',
     'lightning_bottle'
