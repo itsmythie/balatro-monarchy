@@ -49,6 +49,7 @@ local joker_list = {
     'watercolour',
     'sushi_rolls',
     'negative_film',
+    'shattered',
 
     'supermassive',
     'lightning_bottle'

@@ -242,6 +242,14 @@ local descriptions = {
                 'when {C:attention}Boss Blind{} is defeated'
             }
         },
+        shattered = {
+            name = 'Shattered Joker',
+            text = {
+                '{C:attention}#1#s{} give {C:white,X:red}X#2#{} Mult',
+                'and have a {C:green}#3# in #4#',
+                'chance to destroy'
+            }
+        },
         socket_set = {
             name = 'Socket Set',
             text = {
