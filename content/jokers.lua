@@ -35,7 +35,22 @@ local joker_list = {
     'kettlebell',
     'burn',
     'gummy_bears',
-    'metronome'
+    'metronome',
+    'wild_goose',
+    'hailstorm',
+    'vespertine',
+    'old_sailor',
+    'socket_set',
+    'mechanics_grip',
+    'minted_set',
+    'private_eye',
+    'break',
+    'lineup',
+    'watercolour',
+    'sushi_rolls',
+
+    'supermassive',
+    'lightning_bottle'
 }
 
 for _, filename in ipairs(joker_list) do

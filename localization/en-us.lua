@@ -21,6 +21,12 @@ local loc_table = {
             monarchy_air_freshener_flavour_76 = 'Burning',
             monarchy_air_freshener_flavour_86 = 'Sweat',
             monarchy_air_freshener_flavour_96 = 'Eggs',
+            monarchy_socket_set_default = 'numbered card',
+            monarchy_tag_added = 'Tag!',
+            monarchy_lineup_trigger = 'flavour text pls',
+            monarchy_watercolour_default = 'None played',
+            monarchy_watercolour_wild = 'Wild Suit',
+            monarchy_sushi_rolls_set = 'flavour text pls'
         }
     },
     descriptions = {}
@@ -67,6 +73,14 @@ local descriptions = {
                 '{C:mult}+#1#{} Mult if played',
                 '{C:attention}#2#{} contains an',
                 '{C:attention}#3#{} and a {C:attention}#4#',
+            }
+        },
+        the_break = {
+            name = 'The Break',
+            text = {
+                'Gives between {C:white,X:red}X#1#{} Mult',
+                'and {C:white,X:red}X#2#{} Mult on',
+                '{C:attention}first hand{} of round'
             }
         },
         burn = {
@@ -121,6 +135,22 @@ local descriptions = {
                 'a {C:attention}random Enhancement'
             }
         },
+        hailstorm = {
+            name = 'Hailstorm',
+            text = {
+                'When a {C:attention}#1#{} scores,',
+                'each {C:attention}other scored card{}',
+                'gives {C:chips}+#2#{} Chips'
+            }
+        },
+        iron_cross = {
+            name = 'Iron Cross',
+            text = {
+                'Played {C:attention}#1#s{} gain',
+                '{C:white,X:red}X#2#{} Mult for their',
+                'effect when they score'
+            }
+        },
         kettlebell = {
             name = 'Kettlebell',
             text = {
@@ -146,12 +176,99 @@ local descriptions = {
                 '{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)'
             }
         },
+        lightning_bottle = {
+            name = 'Lightning Bottle',
+            text = {
+                '{C:attention}#1#s{} are always drawn',
+                'in your {C:attention}opening hand',
+                'and retrigger when {C:attention}played'
+            }
+        },
+        lineup = {
+            name = 'Lineup',
+            text = {
+                'Create {C:tarot}#3#',
+                'if {C:attention}first discard{} contains',
+                '{C:attention}#1#{} or more {C:attention}#2#',
+            }
+        },
+        mechanics_grip = {
+            name = 'Mechanic\'s Grip',
+            text = {
+                'Played {C:attention}cards{} have a',
+                '{C:green}#1# in #2#{} chance to',
+                'return to your {C:attention}hand'
+            }
+        },
         metronome = {
             name = 'Metronome',
             text = {
                 'Gives {C:chips}+#1#{} Chips or {C:mult}+#2#{} Mult',
                 '{C:attention}Switches{} after every hand',
                 '{C:inactive}(Currently {V:1}#3#{C:inactive})'
+            }
+        },
+        minted_set = {
+            name = 'Minted Set',
+            text = {
+                '{C:white,X:red}X#1#{} Mult if you own',
+                'a {V:1}#2#{}, an {V:2}#3#',
+                'and a {V:3}#4#{C:attention} Joker'
+            }
+        },
+        old_sailor = {
+            name = 'Old Sailor',
+            text = {
+                '{C:attention}#1#s{} have a',
+                '{C:green}#3# in #4#{} chance',
+                'to win {C:money}#2#{} and',
+                'a {C:green}#6# in #7#{} chance',
+                'for {C:red}+#5#{} Mult'
+            }
+        },
+        private_eye = {
+            name = 'Private Eye',
+            text = {
+                'Create a random {C:attention}Tag',
+                'when {C:attention}Boss Blind{} is defeated'
+            }
+        },
+        socket_set = {
+            name = 'Socket Set',
+            text = {
+                'Scored {C:attention}#2#s{} give {C:red}+#1#{} Mult',
+                '{C:inactive,s:0.8}(Rank changes each round)'
+            }
+        },
+        supermassive = {
+            name = 'Supermassive',
+            text = {
+                'Gains {C:white,X:red}X#1#{} Mult for each',
+                '{C:attention}poker hand{} above level {C:attention}#2#',
+                '{C:inactive}(Currently {C:white,X:red}X#3#{C:inactive} Mult)'
+            }
+        },
+        sushi_rolls = {
+            name = 'Sushi Rolls',
+            text = {
+                '{C:green}Rerolls{} start at {C:money}#2#',
+                'for the next {C:attention}#1#{} shops'
+            }
+        },
+        sushi_rolls_alt = {
+            name = 'Sushi Rolls',
+            text = {
+                '{C:green}Rerolls{} start at {C:money}#2#',
+                'for the next shop'
+            }
+        },
+        watercolour = {
+            name = 'Watercolour Joker',
+            text = {
+                '{C:white,X:red}X#1#{} Mult if',
+                '{C:attention}first scored card{} is a',
+                '{C:attention}different{} suit to the last hand\'s',
+                '{C:inactive,s:0.9}(Last suit: {V:1,s:0.9}#2#{C:inactive,s:0.9})'
             }
         },
     }

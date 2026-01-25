@@ -19,3 +19,17 @@ function Monarchy.hand_contains_rank(hand, rank)
         if card.base.value == rank then return true end
     end
 end
+
+function Monarchy.rank_from_deck(seed, face_cull)
+	local ranks = {}
+	local seed = seed or 'monarchy_random_rank_from_deck'
+	for _, card in pairs(G.playing_cards) do
+		ranks[card.base.value] = card.base.value
+	end
+    if face_cull then
+        for rank, _ in pairs(ranks) do
+            if SMODS.Ranks[rank].face then ranks[rank] = nil end
+        end
+    end
+	return pseudorandom_element(ranks, seed)
+end
