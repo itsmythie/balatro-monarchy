@@ -216,6 +216,15 @@ local descriptions = {
                 'and a {V:3}#4#{C:attention} Joker'
             }
         },
+        negative_film = {
+            name = 'Negative Film',
+            text = {
+                '{V:1}#1#{} and {V:2}#2#{} cards',
+                'can appear {C:attention}more than once',
+                'and have a {C:green}#3# in #4#{} chance',
+                'of being {C:dark_edition}#5#'
+            }
+        },
         old_sailor = {
             name = 'Old Sailor',
             text = {

@@ -48,6 +48,7 @@ local joker_list = {
     'lineup',
     'watercolour',
     'sushi_rolls',
+    'negative_film',
 
     'supermassive',
     'lightning_bottle'
