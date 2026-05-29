@@ -99,7 +99,7 @@ local descriptions = {
                 '打出的每张{C:attention}#1#',
                 '给予{C:chips}+#2#{}筹码',
                 '且有{C:green}#3#/#4#{}的几率',
-                '给予{C:money}$#5#'
+                '给予{C:money}#5#'
             }
         },
         bicycle = {
@@ -313,7 +313,7 @@ local descriptions = {
             name = '老海员',
             text = {
                 '{C:attention}#1#',
-                '有{C:green}#3#/#4#{}的几率给予{C:money}$#2#{}',
+                '有{C:green}#3#/#4#{}的几率给予{C:money}#2#{}',
                 '有{C:green}#6#/#7#{}的几率给予{C:red}+#5#{}倍率'
             }
         },
